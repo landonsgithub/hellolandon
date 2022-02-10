@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar_item {
+    font-family: "Space Mono";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 0 20px;
+  
+    color: inherit;
+    text-decoration: inherit;
+    text-transform: uppercase;
+    outline: none;
+  }

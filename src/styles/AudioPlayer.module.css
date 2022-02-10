@@ -1,0 +1,167 @@
+.audioWrapper{
+    --primaryColor: #8671a5;
+    background-color: rgb(183, 181, 190);
+    align-items: center;
+    display: flex;
+    width: 340px;
+    padding: 3px 10px;
+    border-radius: 0 0 4px 4px;
+   
+}
+
+.playPauseButton {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    font-size:25px;
+    border: none;
+    border-radius: 50%;
+    background: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sideButtons {
+    font-size: 16px;
+    background: none;
+    border: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.sideButtons:hover,
+.playPauseButton:hover{
+    color: var(--primaryColor);
+}
+
+.currentTime,
+.duration {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.currentTime{
+    margin-left: 25px;
+}
+
+.duration{
+    margin-left: 5px;
+}
+
+.progressBar {
+    --bar-background: #8671a5;
+    --seek-before-width: 0;
+    --seek-before-color: #928a9e;
+    --knob: #584d6b;
+    --selectedKnob: #c3b4d8;
+
+    appearance: none;
+    position: relative;
+    background: var(--bar-background);
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    height: 8px;
+}
+
+/* progressBar - safari */
+.progressBar::-webkit-slider-runnable-track {
+    position: relative;
+    background: var(--bar-background);
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    height: 8px;
+}
+
+/* progressBar - firefox */
+.progressBar::-moz-range-track {
+    position: relative;
+    background: var(--bar-background);
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    height: 8px;
+}
+
+.progressBar::-moz-focus-outer {
+    border: 0;
+}
+
+/* progressBar - chrome/safari */
+.progressBar::before {
+    content: '';
+    height: 8px;
+    width: var(--seek-before-width);
+    background-color: var(--seek-before-color);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* progressBar - firefox */
+.progressBar::-moz-range-progress {
+    background-color: var(--seek-before-color);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 8px;
+
+}
+
+/* knob - chrome/safari */
+.progressBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--knob);
+    cursor: pointer;
+    position: relative;
+    margin: -3px 0 0 0;
+    z-index: 3;
+    box-sizing: border-box;
+}
+
+/* knob while dragging - chrome/safari */
+.progressBar:active::-webkit-slider-thumb {
+    transform: scale(1.2);
+    background: var(--selectedKnob);
+}
+
+/* knob - firefox */
+.progressBar::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: transparent;
+    background-color: var(--knob);
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+    box-sizing: border-box;
+}
+
+.progressBar:active::-moz-range-thumb {
+    transform: scale(1.2);
+    background: var(--selectedKnob);
+}
+    
+
+
+
+
