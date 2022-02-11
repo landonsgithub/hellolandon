@@ -14,7 +14,7 @@ function App() {
         <main className={styles.main}>
           <HeaderHome />
           <Routes>
-              <Route path="/home" element={< Home />} />
+              <Route path="/" element={< Home />} />
               {/* <Route path="/about" element={< About />} />
               <Route path="/resume" element={<Resume />} /> */}
               <Route path="/projects" element={<Projects />} />           

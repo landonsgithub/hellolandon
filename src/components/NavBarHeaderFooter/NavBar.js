@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
       <>
         <section className={styles.navbar}>
-          <Link to="/home" className={styles.navbar_item}>Home</Link>
+          <Link to="/" className={styles.navbar_item}>Home</Link>
           <Link to="/projects" className={styles.navbar_item}>Projects</Link>
         </section>
       </>
