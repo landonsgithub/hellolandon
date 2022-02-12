@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import styles from '../../styles/AudioPlayer.module.css';
 import {BsArrowClockwise} from 'react-icons/bs';
 import {BsArrowCounterclockwise} from 'react-icons/bs';
@@ -18,11 +18,17 @@ const AudioPlayer = () => {
   const progressBarAnimation = useRef(); 
 
   //effects
-  useEffect(() => {
-    const seconds = Math.floor(audio.current.duration);
+  // useEffect(() => {
+  //   const seconds = Math.floor(audio.current.duration);
+  //   setDuration(seconds);
+  //   progressBar.current.max = seconds;
+  // }, [ audio?.current?.loadedmetadata, audio?.current?.readyState ]);
+
+  const onDurationChangeHandler = (e) => {
+    const seconds = Math.floor(e.target.duration);
     setDuration(seconds);
     progressBar.current.max = seconds;
-  }, [ audio?.current?.loadedmetadata, audio?.current?.readyState ]);
+};
  
     
     // useEffect(() => {
@@ -100,7 +106,7 @@ const AudioPlayer = () => {
       <div className={styles.audioWrapper}>
         {/* eventually, a loop component tag will replace the below line to loop all audio files */}
         {/* <audio ref={audio} src={data} alt="oops, something went wrong..."></audio> */}
-        <audio ref={audio} src="https://dl.dropbox.com/s/wfhmtvbc5two1wa/1-allen_2991.ogg" alt="oops, something went wrong..."></audio>
+        <audio ref={audio} src="https://dl.dropbox.com/s/wfhmtvbc5two1wa/1-allen_2991.ogg" alt="oops, something went wrong..." onDurationChange={onDurationChangeHandler}></audio>
         <button className={styles.sideButtons} onClick={backwardFifteen}><BsArrowCounterclockwise />15</button>
         <button className={styles.playPauseButton} onClick={isPlayingHandler}>
           { isPlaying ? <BsPauseCircleFill /> : <BsPlayCircleFill /> }</button>

@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../../styles/About.module.css';
+import { IconContext } from "react-icons";
 import {BsEyeFill} from 'react-icons/bs';
 import {FaGlassMartiniAlt} from 'react-icons/fa';
 import {GiWaterGun} from 'react-icons/gi';
@@ -14,6 +15,9 @@ import {GiAutogun} from 'react-icons/gi';
 const About = () => {
   return (
     <>
+    <IconContext.Provider
+      value={{ color: 'black', size: '2rem', }}
+    >
     <div className={styles.card_container}>
       <h2 className={styles.about_title}>PROFESSIONAL PROFILE</h2>
         <div className={styles.card1}>
@@ -63,7 +67,7 @@ const About = () => {
         </div>
         <div className={styles.bottom_divider}></div>
       </div>
-     
+      </IconContext.Provider>
     </>
   )
 };

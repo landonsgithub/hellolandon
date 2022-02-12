@@ -6,7 +6,7 @@ const Footer = () => {
         <section className={styles.footer}>
         <hr className={styles.footer_seperator} />
         <section className={styles.footer_social_media}>
-        <a href="https://www.linkedin.com/in/landon-lundquist-091839a8/">LinkedIn</a>
+        <a className={styles.footer_social_link} href="https://www.linkedin.com/in/landon-lundquist-091839a8/">LinkedIn</a>
         </section>
         <section className={styles.footer_info}>
         <section className={styles.footer_info_left}>

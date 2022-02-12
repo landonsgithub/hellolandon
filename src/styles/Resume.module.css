@@ -23,17 +23,9 @@ font-style: normal; */
 }
 
 
-
-.education{
-
-}
-
-.workexp{
-
-}
-
 .h2{
     font-family: "Space Mono";
+    font-size: 3rem;;
     letter-spacing: .3rem;
     text-align: center;
 }
@@ -41,15 +33,15 @@ font-style: normal; */
 .h_all, .header_h3{
     font-family: brother-1816, sans-serif;
     font-weight: 700;
+    font-size: 1.3rem;
 }
 
 .text{
     font-family: monospace, serif;  
+    font-size: 1.1rem;
+    line-height: 1.8rem;
 }
 
-.header_h3{
-    
-}
 .header_text{
     font-family: monospace, serif;
     

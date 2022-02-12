@@ -9,7 +9,7 @@ font-style: normal; */
 .header_container{
   display: flex;
   width: 100vw;
-  height: 480px;
+  height: 600px;
   flex-direction: column;
 }
 
@@ -38,7 +38,7 @@ font-style: normal; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 
@@ -46,7 +46,7 @@ font-style: normal; */
   display: flex;
   justify-content: center;
   font-family: filmotype-kitten;
-  font-size: 8.5rem;
+  font-size: 11.5rem;
   letter-spacing: .4rem;
 
 }
@@ -55,7 +55,7 @@ font-style: normal; */
   display: flex;
   justify-content: center;
   font-family: filmotype-kitten;
-  font-size: 8.5rem;
+  font-size: 12rem;
   letter-spacing: .4rem;
   margin-right: 4rem;
 }
@@ -69,7 +69,7 @@ justify-content: space-evenly;
 
 .header_secondary_text{
   font-family: "Space Mono";
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 

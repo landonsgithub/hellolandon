@@ -3,7 +3,7 @@
     background-color: rgb(183, 181, 190);
     align-items: center;
     display: flex;
-    width: 340px;
+    width: 500px;
     padding: 3px 10px;
     border-radius: 0 0 4px 4px;
    
@@ -13,9 +13,9 @@
     display: flex;
     margin: 0;
     padding: 0;
-    width: 30px;
-    height: 30px;
-    font-size:25px;
+    width: 40px;
+    height: 40px;
+    font-size:30px;
     border: none;
     border-radius: 50%;
     background: none;
@@ -26,7 +26,7 @@
 }
 
 .sideButtons {
-    font-size: 16px;
+    font-size: 22px;
     background: none;
     border: none;
     display: flex;
@@ -46,15 +46,15 @@
 .currentTime,
 .duration {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .currentTime{
-    margin-left: 25px;
+    margin: 0 10px 0 25px;
 }
 
 .duration{
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .progressBar {

@@ -23,6 +23,7 @@ font-style: normal; */
     justify-content: center;
     color: white;
     font-family: "Space Mono";
+    font-size: 2.5rem;
     letter-spacing: .3rem;
   }
 
@@ -34,17 +35,19 @@ font-style: normal; */
 
 .card_title{
     display: flex;
-    line-height: .5rem;
     font-family: brother-1816, sans-serif;
+    font-size: 1.3rem;
     justify-content: space-between;
     margin-right: 1.2rem;
+    margin-top: 1rem;;
 }
 
 .card_text{
-    font-family: sans-serif;
-    font-size: .9rem;
-    line-height: 1.1rem
+    font-family: monospace;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
+
 
 .card1{
     display: inline-block;
@@ -53,7 +56,7 @@ font-style: normal; */
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 250px;
+    width: 300px;
     padding : 15px;
     margin: 10px;
 }
@@ -65,7 +68,7 @@ font-style: normal; */
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 250px;
+    width: 300px;
     padding : 15px;
     margin: 10px;
 }
@@ -77,7 +80,7 @@ font-style: normal; */
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 250px;
+    width: 300px;
     padding : 15px;
     margin: 10px;
 }
@@ -89,7 +92,7 @@ font-style: normal; */
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 250px;
+    width: 300px;
     padding : 15px;
     margin: 10px;
 }
@@ -101,7 +104,7 @@ font-style: normal; */
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 250px;
+    width: 300px;
     padding : 15px;
     margin: 10px;
 }
@@ -113,7 +116,7 @@ font-style: normal; */
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 250px;
+    width: 300px;
     padding : 15px;
     margin: 10px;
 }
@@ -125,7 +128,7 @@ font-style: normal; */
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 250px;
+    width: 300px;
     padding : 15px;
     margin: 10px;
 }
@@ -137,7 +140,7 @@ font-style: normal; */
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 250px;
+    width: 300px;
     padding : 15px;
     margin: 10px;
 }
@@ -149,7 +152,7 @@ font-style: normal; */
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
-    width: 250px;
+    width: 300px;
     padding : 15px;
     margin: 10px;
 }

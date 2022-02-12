@@ -13,6 +13,7 @@
     flex-direction: row;
     justify-content: center;
     margin-bottom: 20px;
+    font-size: .8rem;
   }
   
   .footer_social_media__icon {
@@ -24,6 +25,7 @@
   .footer_info  {
     display: flex;
     justify-content: center;
+    font-size: .8rem;
   }
   
   .footer_info_left, .footer_info_center, .footer_info_right {
@@ -32,6 +34,7 @@
     flex-direction: column;
     margin-bottom: 10px;
     width: 30%;
+    font-size: .8rem;
   }
   
   .footer_info__name, .footer_info__email, .footer_info__number {
@@ -40,14 +43,17 @@
   
   .footer_info__name, .footer_info__returns {
     text-align: start;
+    font-size: .8rem;
   }
   
   .footer_info__email, .footer_info__terms {
     text-align: center;
+    font-size: .8rem;
   }
   
   .footer_info__number, .footer_info__contact {
     text-align: end;
+    font-size: .8rem;
   }
   
   .footer_date {
@@ -74,4 +80,8 @@
     font-family: RobotoBold;
     font-size: large;
     margin: 0px 20px;
+  }
+
+  .footer_social_link{
+    font-size: .9rem;
   }
