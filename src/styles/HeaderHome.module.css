@@ -48,6 +48,7 @@ font-style: normal; */
   font-family: filmotype-kitten;
   font-size: 11.5rem;
   letter-spacing: .4rem;
+  text-shadow: 2.2px 2.2px  rgb(210 178 158);;
 
 }
 
@@ -58,6 +59,7 @@ font-style: normal; */
   font-size: 12rem;
   letter-spacing: .4rem;
   margin-right: 4rem;
+  text-shadow: 3px 3px  rgb(210 178 158);;
 }
 
 .bottom_text_container{

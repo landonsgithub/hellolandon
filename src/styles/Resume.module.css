@@ -32,7 +32,7 @@ font-style: normal; */
     font-size: 3rem;;
     letter-spacing: .3rem;
     text-align: center;
-    text-shadow: .5px .5px rgb(141, 139, 139);
+    text-shadow: 2px 2px rgb(141, 139, 139);
 }
 
 .h_all, .header_h3{
