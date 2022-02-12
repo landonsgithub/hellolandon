@@ -13,12 +13,16 @@ font-style: normal; */
 .text_wrapper{
     display: flex;
     flex-direction: column;
-    margin: 6rem 15vw;
+    margin: 6rem 10vw;
+    padding: 5%;
+    background-color: rgba(236, 236, 236, 0.25);
+    
 }
 
 .header{
     display: flex;
     flex-direction: column;
+   
     
 }
 
@@ -28,21 +32,25 @@ font-style: normal; */
     font-size: 3rem;;
     letter-spacing: .3rem;
     text-align: center;
+    text-shadow: .5px .5px rgb(141, 139, 139);
 }
 
 .h_all, .header_h3{
     font-family: brother-1816, sans-serif;
     font-weight: 700;
     font-size: 1.3rem;
+    text-shadow: .5px .5px rgb(141, 139, 139);
 }
 
 .text{
     font-family: monospace, serif;  
     font-size: 1.1rem;
     line-height: 1.8rem;
+    text-shadow: 1px 1px rgb(160, 139, 139);
 }
 
 .header_text{
     font-family: monospace, serif;
+    text-shadow: .5px .5px rgb(141, 139, 139);
     
 }

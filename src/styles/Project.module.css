@@ -26,6 +26,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 1%;
+    text-shadow: 5px 5px rgb(160, 139, 139);
 }
 
 .img_wrapper{
@@ -62,6 +63,7 @@
 .projects_text {
     font-family: monospace, serif; 
     font-size: 1.1rem; 
+    text-shadow: .8px .8px rgb(141, 135, 135);
 
 }
 
