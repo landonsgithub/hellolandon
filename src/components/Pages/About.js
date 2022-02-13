@@ -63,7 +63,7 @@ const About = () => {
         <div className={styles.card9}>
           <h4 className={styles.card_title}>EXODUS FROM CHINA<GiAutogun /></h4>
           <hr/>
-          <p className={styles.card_text}>When the border between the USA and China closed in 2020, I found myself stranded in the West away from my career and community. Cheers to new opportunities!</p>
+          <p className={styles.card_text}>I was unable to enter China after April 2020 due to border closure, so I spent time learning programming. </p>
         </div>
         <div className={styles.bottom_divider}></div>
       </div>
