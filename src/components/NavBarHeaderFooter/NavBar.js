@@ -6,8 +6,8 @@ const NavBar = () => {
     return (
       <>
         <section className={styles.navbar}>
-          <Link to="/" className={styles.navbar_item}>Home</Link>
-          <Link to="/projects" className={styles.navbar_item}>Projects</Link>
+          <Link to="/" className={styles.button}>Home</Link>
+          <Link to="/projects" className={styles.button}>Projects</Link>
         </section>
       </>
     )

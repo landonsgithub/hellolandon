@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../../styles/Footer.module.css';
+import NavBar from './NavBar' ;
 
 const Footer = () => {
     return (
@@ -11,33 +12,30 @@ const Footer = () => {
         <section className={styles.footer_info}>
         <section className={styles.footer_info_left}>
             <section className={styles.footer_info__name}>
-                Software Developer Landon Lundquist
-            </section>
-            <section className={styles.footer_info__returns}>
-            <br />
-            <br />
-            Los Angeles
+                <NavBar />
             </section>        
         </section>
         <section className={styles.footer_info_center}>
             <section className={styles.footer_info__email}>
             lundquistlandon@gmail.com
+            <br/>
             </section>
             <section className={styles.footer_info__terms}>
             https://github.com/landonsgithub
             <br />
-            <br />
-            Chengdu
+           
             </section>
         </section>
         <section className={styles.footer_info_right}>
             <section className={styles.footer_info__number}>
+            Landon Lundquist
+            <br />
+            <br/>
             1(951) 407-6816
             </section>
             <section className={styles.footer_info__contact}>
-            <br />
-            <br />
-            Prague
+          
+            California
             </section>
         </section>
         </section>

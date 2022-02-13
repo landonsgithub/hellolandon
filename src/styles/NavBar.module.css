@@ -5,7 +5,7 @@
     flex-direction: row;
   }
   
-  .navbar_item {
+  .button {
     font-family: "Space Mono";
     display: flex;
     justify-content: center;
@@ -16,5 +16,48 @@
     text-decoration: inherit;
     text-transform: uppercase;
     outline: none;
-    text-shadow: 2px 2px rgb(141, 139, 139);
+    text-shadow: 1px 1px rgb(141, 139, 139);
+    padding: 0px 3.5px;
+   
+
   }
+
+  /* GENERAL BUTTON STYLING */
+.button,
+.button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+
+.button:hover {
+  color: rgb(100, 79, 79);
+  background-color: rgba(228, 217, 214, 0.15);
+  border-radius: 15%;
+  border: 1.5px solid rgb(100, 79, 79);
+  border-radius: 2px;
+}
+
+
+
+.button::after {
+  color: rgb(100, 79, 79);
+  background-color: rgba(228, 217, 214, 0.15);
+  border: 1.5px solid rgb(100, 79, 79);
+  border-radius: 2px;
+  border-radius: 15%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.button:hover:after {
+  height: 0;
+  left: 50%;
+  top: 50%;
+  width: 0;
+}
