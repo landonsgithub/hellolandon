@@ -43,7 +43,7 @@ const About = () => {
         <div className={styles.card5}>  
           <h4 className={styles.card_title}>MARKETING<GiErlenmeyer /></h4>
           <hr/>
-          <p className={styles.card_text}>In almost every project I work on, I find myself contributing to marketing through content creation, partnerships and gorilla strategies.</p>
+          <p className={styles.card_text}>In almost every project I work on, I find myself contributing to marketing through content creation, partnerships and strategies.</p>
         </div>
         <div className={styles.card6}>
           <h4 className={styles.card_title}>MANAGING<HiLightningBolt /></h4>
