@@ -61,9 +61,9 @@ const About = () => {
           <p className={styles.card_text}>Learning Adobe suite greatly increased my value and contribution in 0-1 startups, I am proficient in Illustrator, Premier and others.  </p>
         </div>
         <div className={styles.card9}>
-          <h4 className={styles.card_title}>Goodbye CHINA<GiAutogun /></h4>
+          <h4 className={styles.card_title}>GOODBYE CHINA<GiAutogun /></h4>
           <hr/>
-          <p className={styles.card_text}>I was unable to enter China after April 2020 due to border closure, so I spent time learning to program. </p>
+          <p className={styles.card_text}>I was unable to enter China after April 2020 due to border closure. During this time of uncertainty I devoted myself to learn programming. </p>
         </div>
         <div className={styles.bottom_divider}></div>
       </div>
