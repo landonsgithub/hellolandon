@@ -23,17 +23,17 @@ const About = () => {
         <div className={styles.card1}>
           <h4 className={styles.card_title}>CHINA: 2016-2020<BsEyeFill /></h4>
           <hr/>
-          <p className={styles.card_text}>I moved to Chengdu in SW China on an embassy scholership and quickly plugged myself into non-profit education projects.</p>
+          <p className={styles.card_text}>I moved to Chengdu, a large city in Southwest China on an embassy scholarship and quickly plugged myself into non-profit education projects.</p>
         </div>
         <div className={styles.card2}>
           <h4 className={styles.card_title}>NOVAS COCKTAIL CO<FaGlassMartiniAlt /></h4>
           <hr/>
-          <p className={styles.card_text}>In 2017 I started a local bottled cocktail company and threw events across the city. The company was nominated for best startup by Chengdu Expat.</p>
+          <p className={styles.card_text}>In 2017 I started a bottled cocktail company and through events/delivered products across the city. The company was nominated for best startup by Chengdu Expat.</p>
         </div>
         <div className={styles.card3}>
           <h4 className={styles.card_title}>NON-PROFIT<GiWaterGun /></h4>
           <hr/>
-          <p className={styles.card_text}>With local partners, I helped create and operate a small library and training center in a rural community outside Chengdu, China.</p>
+          <p className={styles.card_text}>With local partners, I opened and operated a small library and training center in a rural community outside Chengdu, China.</p>
         </div>
         <div className={styles.card4}>
           <h4 className={styles.card_title}>PROGRAMMING<RiRobotFill /></h4>
@@ -43,7 +43,7 @@ const About = () => {
         <div className={styles.card5}>  
           <h4 className={styles.card_title}>MARKETING<GiErlenmeyer /></h4>
           <hr/>
-          <p className={styles.card_text}>Almost every project I work on I find myself contributing to marketing, usually through partnerships and gorilla strategies.</p>
+          <p className={styles.card_text}>In almost every project I work on, I find myself contributing to marketing through content creation, partnerships and gorilla strategies.</p>
         </div>
         <div className={styles.card6}>
           <h4 className={styles.card_title}>MANAGING<HiLightningBolt /></h4>
@@ -58,12 +58,12 @@ const About = () => {
         <div className={styles.card8}>
           <h4 className={styles.card_title}>ADOBE<GiUfo /></h4>
           <hr/>
-          <p className={styles.card_text}>Learning Adobe suite granted me super powered contribution in consultation in 0-1 startups, I am proficient in Illustrator, Premier and others.  </p>
+          <p className={styles.card_text}>Learning Adobe suite greatly increased my value and contribution in 0-1 startups, I am proficient in Illustrator, Premier and others.  </p>
         </div>
         <div className={styles.card9}>
-          <h4 className={styles.card_title}>EXODUS FROM CHINA<GiAutogun /></h4>
+          <h4 className={styles.card_title}>Goodbye CHINA<GiAutogun /></h4>
           <hr/>
-          <p className={styles.card_text}>I was unable to enter China after April 2020 due to border closure, so I spent time learning programming. </p>
+          <p className={styles.card_text}>I was unable to enter China after April 2020 due to border closure, so I spent time learning to program. </p>
         </div>
         <div className={styles.bottom_divider}></div>
       </div>
