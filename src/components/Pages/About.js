@@ -63,7 +63,7 @@ const About = () => {
         <div className={styles.card9}>
           <h4 className={styles.card_title}>GOODBYE CHINA<GiAutogun /></h4>
           <hr/>
-          <p className={styles.card_text}>I was unable to enter China after April 2020 due to border closure. During this time of uncertainty I devoted myself to learn programming. </p>
+          <p className={styles.card_text}>I was unable to enter China after April 2020 due to border closure. During this time of uncertainty I devoted myself to learning web development. </p>
         </div>
         <div className={styles.bottom_divider}></div>
       </div>
