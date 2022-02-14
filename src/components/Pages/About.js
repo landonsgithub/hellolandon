@@ -53,7 +53,7 @@ const About = () => {
         <div className={styles.card7}>
           <h4 className={styles.card_title}>CONSULTING<GiDinosaurRex /></h4>
           <hr/>
-          <p className={styles.card_text}>By 2018, virtually all my work was on a consultation basis, allowing me to grow and contribute on many teams in different cities.</p>
+          <p className={styles.card_text}>By 2018, virtually all my work was on a consultation basis allowing me to grow and contribute on many teams in different cities.</p>
         </div>
         <div className={styles.card8}>
           <h4 className={styles.card_title}>ADOBE<GiUfo /></h4>
