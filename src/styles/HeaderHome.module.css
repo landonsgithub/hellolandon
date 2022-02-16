@@ -73,7 +73,10 @@ justify-content: space-evenly;
 .header_secondary_text{
   font-family: "Space Mono";
   font-size: 1.4rem;
-  text-shadow: 1.2px 1.2px rgb(88, 87, 87);
+  text-shadow: 1.3px 1.3px rgb(130, 132, 141);
+  background-color: rgba(141, 98, 72, .20);
+  border-radius: 5px;
+  padding: 3px;
 }
 
 
