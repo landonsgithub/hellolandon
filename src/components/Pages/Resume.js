@@ -47,7 +47,7 @@ const Resume = () => {
                   <li className={styles.text}>Identified target market, strategize marketing campaign and create marketing materials for 3 separate programs aimed at consumers of technology training in coding, electrical engineering and IOT.  </li> 
                   <li className={styles.text}>Introduced strategic partners for mutual cooperation sharing in media and education resulting in dialogue with 20+ distinguished education locations aiming to source our services for thousands of students. </li>  
                   <li className={styles.text}>Developed original curriculum with one of a kind and sourced materials with in house technology team including original story incorporating stem education principals. </li> 
-                  <li className={styles.text}>Introduced artists to project and manage illustration design of original story considering the physics of curriculum.</li>
+                  <li className={styles.text}>Introduced artists to project and manage illustration design of original story following each lesson of the curriculum.</li>
                 </ul>
               </div>
         </section>

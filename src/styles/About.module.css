@@ -51,6 +51,17 @@ font-style: normal; */
     text-shadow: .5px .5px rgb(141, 139, 139);
 }
 
+.card0{
+    display: inline-block;
+    background-color: #a8c8bc ;
+    background-image: url('https://www.dropbox.com/s/b4omfhhkbzq6z9s/card0.png?raw=1');
+    background-size: cover;
+    border: 2px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 300px;
+    padding : 15px;
+    margin: 10px;
+}
 
 .card1{
     display: inline-block;
@@ -72,7 +83,7 @@ font-style: normal; */
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
     width: 300px;
-    padding : 10px;
+    padding : 15px;
     margin: 10px;
 }
 
@@ -84,7 +95,7 @@ font-style: normal; */
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
     width: 300px;
-    padding : 15px;
+    padding : 10px;
     margin: 10px;
 }
 
@@ -152,6 +163,30 @@ font-style: normal; */
     display: inline-block;
     background-color: #abd2c3 ;
     background-image: url('https://www.dropbox.com/s/vlws34k4gcn0px0/card9.png?raw=1');
+    background-size: cover;
+    border: 2px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 300px;
+    padding : 15px;
+    margin: 10px;
+}
+
+.card10{
+    display: inline-block;
+    background-color: #add6c6 ;
+    background-image: url('https://www.dropbox.com/s/hbzn014irwi0wj0/card10.png?raw=1');
+    background-size: cover;
+    border: 2px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 300px;
+    padding : 15px;
+    margin: 10px;
+}
+
+.card11{
+    display: inline-block;
+    background-color: #abd2c3 ;
+    background-image: url('https://www.dropbox.com/s/duq2dme38gu4fky/card11.png?raw=1');
     background-size: cover;
     border: 2px solid #eee;
     box-shadow: 0 2px 2px #ccc;
