@@ -39,7 +39,7 @@ const Projects = () => {
             <div className={styles.projects_text_container2}>
               <h3 className={styles.projects_h3}>PREMIER: INTRO CHENGDU <ImVideoCamera /></h3>
               <hr/>
-              <p className={styles.projects_text}>This is a marketing video I made for the FERRETTE AND PARTNERS previous consultation; cut in Premier from an excruciatingly large b-roll library from my buddies media company. It was intended to be used as digital marketing material to attract western college graduates to our job placement program, but the project fell through because of the pandemic. I took off our previous company branding and made this version for my friends and I.</p>
+              <p className={styles.projects_text}>This is a marketing video I made for the FERRETTE AND PARTNERS previous consultation; cut in Premier from an excruciatingly large b-roll library from my buddy Jonny's partner media company. It was made to be used for digital marketing material to attract western college graduates to our job placement program, but I took off our company branding and made this version for fun as it has good friends.</p>
             </div>
             <div className={styles.project_two_container}>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/EylikOCpAVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
