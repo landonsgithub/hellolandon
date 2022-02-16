@@ -29,7 +29,7 @@ const Resume = () => {
                 <h5 className={styles.h_all_bottom}>CONSULTANT: BUSINESS STRATEGY AND MARKETING	    	    2020 ～5/mo contract</h5>
                 <ul>
                   <li className={styles.text}>Consult and collaborate with a team of 3 founding partners to strategics and simultaneously develop infrastructure for a Chinese facing talent acquisition agency and western facing recruitment platform for 3 opportunely defined business sectors.</li> 
-                  <li className={styles.text}>Created a large company website using digital ocean, wordpress and wordpress extensions.</li>
+                  <li className={styles.text}>Created a company website using digital ocean, wordpress and wordpress extensions.</li>
                   <li className={styles.text}>Developed client management system and dialogues towards client partnerships with international employers for digital recruitment service including recruitment and visa packages.</li>  
                   <li className={styles.text}>Introduced strategic partnerships with local media agencies to trade content and advertising, cutting our marketing budget approximately 11,000rmb a month while generating greater previous exposure.</li> 
                   <li className={styles.text}>Facilitated key branding decisions and strategies, creation of media packages including logos and marketing videos with adobe suite.</li>
@@ -47,7 +47,7 @@ const Resume = () => {
                   <li className={styles.text}>Identified target market, strategize marketing campaign and create marketing materials for 3 separate programs aimed at consumers of technology training in coding, electrical engineering and IOT.  </li> 
                   <li className={styles.text}>Introduced strategic partners for mutual cooperation sharing in media and education resulting in dialogue with 20+ distinguished education locations aiming to source our services for thousands of students. </li>  
                   <li className={styles.text}>Developed original curriculum with one of a kind and sourced materials with in house technology team including original story incorporating stem education principals. </li> 
-                  <li className={styles.text}>Introduced artists to project and manage illustration design of original story following each lesson of the curriculum.</li>
+                  <li className={styles.text}>Introduced artists to project and managed illustration design of original story following each lesson of the curriculum.</li>
                 </ul>
               </div>
         </section>
