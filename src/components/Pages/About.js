@@ -43,7 +43,7 @@ const About = () => {
         <div className={styles.card3}>
           <h4 className={styles.card_title}>NOVAS COCKTAIL CO<FaGlassMartiniAlt /></h4>
           <hr/>
-          <p className={styles.card_text}>In 2017, I started a bottled cocktail company and threw events/delivered products across the city. The company was nominated for best startup by Chengdu Expat.</p>
+          <p className={styles.card_text}>In 2017, I started a bottled cocktail company and threw events/delivered products across the city. The company was nominated for best new business by Chengdu Expat.</p>
         </div>
         <div className={styles.card4}>
         <h4 className={styles.card_title}>MANAGING<HiLightningBolt /></h4>
