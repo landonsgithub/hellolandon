@@ -74,7 +74,7 @@ justify-content: space-evenly;
   font-family: "Space Mono";
   font-size: 1.4rem;
   text-shadow: 1.3px 1.3px rgb(130, 132, 141);
-  background-color: rgba(141, 98, 72, .20);
+  background-color: rgba(141, 98, 72, .10);
   border-radius: 5px;
   padding: 3px;
 }
