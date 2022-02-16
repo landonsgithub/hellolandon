@@ -28,7 +28,7 @@ const Resume = () => {
                 <h4 className={styles.h_all}>FERRETTE AND PARTNERS -  Chengdu, China              (Launch Suspended due to Pandemic) </h4>
                 <h5 className={styles.h_all_bottom}>CONSULTANT: BUSINESS STRATEGY AND MARKETING	    	    2020 ～5/mo contract</h5>
                 <ul>
-                  <li className={styles.text}>Consult and collaborate with a team of 3 founding partners to strategics and simultaneously develop infrastructure for a Chinese facing talent acquisition agency and western facing recruitment platform for 3 opportunely defined business sectors.</li> 
+                  <li className={styles.text}>Consult and collaborate with a team of 3 founding partners to strategize and simultaneously develop infrastructure for a Chinese facing talent acquisition agency and western facing recruitment platform for 3 opportunely defined business sectors.</li> 
                   <li className={styles.text}>Created a company website using digital ocean, wordpress and wordpress extensions.</li>
                   <li className={styles.text}>Developed client management system and dialogues towards client partnerships with international employers for digital recruitment service including recruitment and visa packages.</li>  
                   <li className={styles.text}>Introduced strategic partnerships with local media agencies to trade content and advertising, cutting our marketing budget approximately 11,000rmb a month while generating greater previous exposure.</li> 

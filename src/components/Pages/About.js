@@ -33,7 +33,7 @@ const About = () => {
         <div className={styles.card1}>
           <h4 className={styles.card_title}>CHINA: 2016-2020<BsEyeFill /></h4>
           <hr/>
-          <p className={styles.card_text}>I moved to Chengdu ( a large city in Southwest China ) on an embassy scholarship and quickly plugged myself into non-profit education projects.</p>
+          <p className={styles.card_text}>I moved to Chengdu (a large city in Southwest China) on an embassy scholarship and quickly plugged myself into non-profit education projects.</p>
         </div>
         <div className={styles.card2}>
         <h4 className={styles.card_title}>NON-PROFIT<GiFishMonster /></h4>
