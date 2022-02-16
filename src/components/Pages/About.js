@@ -83,7 +83,7 @@ const About = () => {
         <div className={styles.card11}>
           <h4 className={styles.card_title}>NEW PROJECTS<GiAutogun /></h4>
           <hr/>
-          <p className={styles.card_text}>I am currently seeking a new project or position and eager to add these valuable experiences to a new team.</p>
+          <p className={styles.card_text}>I am currently seeking a new project or position and eager to add these valuable experiences and skills to a new team.</p>
         </div>
         <div className={styles.bottom_divider}></div>
       </div>
