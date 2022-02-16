@@ -32,22 +32,22 @@ const Resume = () => {
                   <li className={styles.text}>Created a company website using digital ocean, wordpress and wordpress extensions.</li>
                   <li className={styles.text}>Developed client management system and dialogues towards client partnerships with international employers for digital recruitment service including recruitment and visa packages.</li>  
                   <li className={styles.text}>Introduced strategic partnerships with local media agencies to trade content and advertising, cutting our marketing budget approximately 11,000rmb a month while generating greater previous exposure.</li> 
-                  <li className={styles.text}>Facilitated key branding decisions and strategies, creation of media packages including logos and marketing videos with adobe suite.</li>
+                  <li className={styles.text}>Facilitated key branding decisions and created media packages including logos and marketing videos with adobe suite.</li>
                 </ul>
                 <h4 className={styles.h_all}>FLO BEVERAGE CO. -  Beijing, China		                (Launch Suspended due to Pandemic)</h4>
                 <h5 className={styles.h_all_bottom}>CONSULTANT: FLAVOR CREATION AND MARKETING    		       2019 ～8/mo contract </h5>
                 <ul>
                   <li className={styles.text}>Worked alongside high level advertising and management executives and KOLs (influencers) in the launching of a beverage venture. </li> 
-                  <li className={styles.text}>Contributed to team strategy on defining of our target market, formulation of potential digital marketing campaigns and geographic flavor profiling. </li>  
+                  <li className={styles.text}>Contributed to team strategy on the defining of our target market, formulation of potential digital marketing campaigns and geographic flavor profiling. </li>  
                   <li className={styles.text}>Concocted 3 all natural sodas mixed with an alcoholic solution in distinguished factories while sourcing ingredients.</li> 
                 </ul>
                 <h4 className={styles.h_all}>ZHONG XI TECHNOLOGY -  Chengdu, China</h4>
                 <h5 className={styles.h_all_bottom}>CONSULTANT: BUSINESS DEVELOPMENT AND MARKETING    	2019 ～6/mo contract </h5>
                 <ul>
-                  <li className={styles.text}>Identified target market, strategize marketing campaign and create marketing materials for 3 separate programs aimed at consumers of technology training in coding, electrical engineering and IOT.  </li> 
+                  <li className={styles.text}>Identified target market, strategized marketing campaign and created marketing materials for 3 separate programs aimed at consumers of technology training in computer programming, basic electrical engineering and IOT.  </li> 
                   <li className={styles.text}>Introduced strategic partners for mutual cooperation sharing in media and education resulting in dialogue with 20+ distinguished education locations aiming to source our services for thousands of students. </li>  
                   <li className={styles.text}>Developed original curriculum with one of a kind and sourced materials with in house technology team including original story incorporating stem education principals. </li> 
-                  <li className={styles.text}>Introduced artists to project and managed illustration design of original story following each lesson of the curriculum.</li>
+                  <li className={styles.text}>Wrote, introduced artists to project and managed the illustration design and mixed-media resources of original story organized into modules to support curriculum.</li>
                 </ul>
               </div>
         </section>
