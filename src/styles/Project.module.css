@@ -46,6 +46,7 @@
 }
 
 .projects_h1 {
+    font-family: 'Space Mono', monospace;
     font-weight: 700;
     font-style: normal;
     font-size: 5rem;

@@ -1,3 +1,51 @@
+@import url("https://use.typekit.net/fng0mtw.css");
+  /* font-family: filmotype-kitten,sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+  /* font-family: filmotype-maxwell, sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+  /* font-family: synthemesc, sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,400&display=swap');
+  /*font-family: 'Space Mono', monospace; */
+    /* font-weight: 700, 600;
+    font-style: normal, italic; */
+
+  
+
+* {
+  font-family: filmotype-kitten,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: filmotype-maxwell, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  font-family: 'Space Mono', monospace;
+  font-weight: 700, 600;
+  font-style: normal, italic;
+
+  font-family: synthemesc, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+ 
+  
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
