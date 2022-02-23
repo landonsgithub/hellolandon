@@ -97,7 +97,7 @@ justify-content: space-evenly;
   .header_main_text_wrapper{
     display: flex;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
   .header_main_text_one{
     font-family: synthemesc, sans-serif;
@@ -112,7 +112,7 @@ justify-content: space-evenly;
     font-weight: 400;
     font-style: normal;
     font-size: 3.5rem;
-    line-height: .5rem;
+    line-height: -3rem;
     letter-spacing: -.1rem;
     margin-right: 0;
     text-shadow: 1px 1px  rgb(210 178 158);
@@ -122,12 +122,13 @@ justify-content: space-evenly;
     flex-direction: column;
     justify-content: center;
     margin-left: 4%;
-    margin-top: 20%
+    margin-top: 30%
     }
   .header_secondary_text{
     font-size: 1.5rem;
     text-shadow: .6px .6px rgb(130, 132, 141);
     background-color: rgba(141, 98, 72, .10);
+    line-height: 3rem;
     border-radius: 1px;
     padding: 3px;
   }
@@ -142,19 +143,19 @@ justify-content: space-evenly;
     font-family: synthemesc, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 6.5rem;
+    font-size: 6.75rem;
     letter-spacing: -.3rem;
-    text-shadow: 1px 1px  rgb(210 178 158);
+    text-shadow: 2px 2px  rgb(210 178 158);
   }
   .header_main_text_two{
     font-family: synthemesc, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 4.75rem;
-    line-height: .5rem;
+    line-height: -5rem;
     letter-spacing: -.1rem;
     margin-right: 0;
-    text-shadow: 1px 1px  rgb(210 178 158);
+    text-shadow: 2px 2px  rgb(210 178 158);
   }
 
   .bottom_text_container{
@@ -187,17 +188,17 @@ and (max-width: 768px) {
     font-style: normal;
     font-size: 8rem;
     letter-spacing: -.3rem;
-    text-shadow: 1px 1px  rgb(210 178 158);
+    text-shadow: 3px 3px  rgb(210 178 158);
   }
   .header_main_text_two{
     font-family: synthemesc, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 5.75rem;
-    line-height: .5rem;
+    line-height: -5rem;
     letter-spacing: -.1rem;
     margin-right: 0;
-    text-shadow: 1px 1px  rgb(210 178 158);
+    text-shadow: 3px 3px  rgb(210 178 158);
   }
 
   .bottom_text_container{
@@ -237,7 +238,7 @@ and (max-width: 1024px) {
     font-weight: 400;
     font-style: normal;
     letter-spacing: -.1rem;
-    line-height: 0rem;
+    line-height: -2rem;
     font-size: 8.5rem;
     text-shadow: 3px 3px  rgb(210 178 158);;
   }
@@ -262,6 +263,13 @@ and (max-width: 1024px) {
 }
 
 @media (min-width: 1025px) {
+  .header_container{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    max-height: 100vh;
+    flex-direction: column;
+  }
   .header_main_text_one{
     display: flex;
     justify-content: center;
@@ -296,8 +304,8 @@ and (max-width: 1024px) {
   
   .header_secondary_text{
     font-family: "Space Mono";
-    font-size: 2rem;
-    text-shadow: 1.5px 1.5px rgb(130, 132, 141);
+    font-size: 2.25rem;
+    text-shadow: 2px 2px rgb(130, 132, 141);
     background-color: rgba(141, 98, 72, .10);
     border-radius: 5px;
     padding: 4px;
