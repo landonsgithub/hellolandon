@@ -19,7 +19,8 @@
     text-decoration: inherit;
     text-transform: uppercase;
     outline: none;
-    text-shadow: 1px 1px rgb(141, 139, 139);
+    color: #c1b4ae;
+    text-shadow: 1.5px 1.5px rgb(80 92 84);
    
 
   }
@@ -74,18 +75,30 @@
     padding: 0;
   }
   .button {
-    font-family: "Space Mono";
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem 0 0 0;
     font-size: 1.3rem;
-    color: inherit;
     text-decoration: inherit;
     text-transform: uppercase;
     outline: none;
-    text-shadow: 1px 1px rgb(141, 139, 139);
   }
 
 
+}
+
+@media (min-width: 481px) {
+  .button {
+    background-color: rgba(74, 85, 85, 0.15);
+    border-radius: 10%;
+    padding: 2px 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .button {
+    font-size: 1.5rem;
+    text-shadow: 1.8px 1.8px rgb(80 92 84);
+  }
 }
