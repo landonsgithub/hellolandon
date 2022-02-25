@@ -2,6 +2,8 @@ import React from 'react';
 import NavBar from './NavBar' ;
 import styles from'../../styles/HeaderHome.module.css';
 
+
+
 const HeaderHome = () => {
   return (
     <>
@@ -16,22 +18,26 @@ const HeaderHome = () => {
                 <div className={styles.header_main_text_one}>Landon</div>
                 <div className={styles.header_main_text_two}>Lundquist</div>
               </div>
-              <section className={styles.bottom_text_container}>
-                <div className={styles.header_secondary_text}>
-                  MARKETER
-                </div>
-                <div className={styles.header_secondary_text}>
-                  MANAGER
-                </div>
-                <div className={styles.header_secondary_text}>
-                  DEVELOPER
-                </div>  
-              </section>
+              {/* <section className={styles.bottom_container}> */}
+                
+                <section className={styles.bottom_text_container}>
+                  <div className={styles.header_secondary_text}>
+                    MARKETER
+                  </div>
+                  <div className={styles.header_secondary_text}>
+                    MANAGER
+                  </div>
+                  <div className={styles.header_secondary_text}>
+                    DEVELOPER
+                  </div>  
+                </section>
+              {/* </section> */}
             </section>
           </div> 
         </section>
+        <div className={styles.bottom_animated_bkg}></div>
       </section>
-      <div className={styles.bottom_animated_bkg}></div>
+      
     </>
   )
 };
