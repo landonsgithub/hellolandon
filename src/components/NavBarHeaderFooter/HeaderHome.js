@@ -34,8 +34,9 @@ const HeaderHome = () => {
               {/* </section> */}
             </section>
           </div> 
+          <div className={styles.bottom_animated_bkg}></div>
         </section>
-        <div className={styles.bottom_animated_bkg}></div>
+        
       </section>
       
     </>
