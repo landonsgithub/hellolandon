@@ -4,44 +4,27 @@ import NavBar from './NavBar' ;
 
 const Footer = () => {
     return (
-        <section className={styles.footer}>
-        <hr className={styles.footer_seperator} />
-        <section className={styles.footer_social_media}>
-        <a className={styles.footer_social_link} href="https://www.linkedin.com/in/landon-lundquist-091839a8/">LinkedIn</a>
-        </section>
-        <section className={styles.footer_info}>
-        <section className={styles.footer_info_left}>
-            <section className={styles.footer_info__name}>
-                <NavBar />
-            </section>        
-        </section>
-        <section className={styles.footer_info_center}>
-            <section className={styles.footer_info__email}>
-            lundquistlandon@gmail.com
-            <br/>
+        <div className={styles.footer_background}>
+            <section className={styles.footer_container}>
+                <main className={styles.footer_grid}>
+                    <div className={styles.navbar_footer}><NavBar /></div>
+                    <div className={styles.left_hide}>INFO</div>
+                    <div className={styles.center_hide}>SITES</div>
+                    <div className={styles.right_hide}>CONTACT</div>
+                    <p className={styles.left}>Check out my projects!</p>
+                    <div className={styles.left}>Landon Lundquist</div>
+                    <div className={styles.center}><a href="https://www.linkedin.com/in/landon-lundquist-091839a8/" style={{color: "#4fb0a7", textDecoration: "none"}}>LinkedIn</a></div>
+                    <div className={styles.right}>+1(951)407-6815</div>
+                    <div></div>  
+                    <div className={styles.left}>California</div>
+                    <div className={styles.center}><a href="https://github.com/landonsgithub" style={{color: "#4fb0a7", textDecoration: "none"}}>github</a></div>
+                    <div className={styles.right}><a href="mailto:lundquistlandon@gmail.com" style={{color: "#4fb0a7", textDecoration: "none"}}>email</a></div>   
+                </main>    
             </section>
-            <section className={styles.footer_info__terms}>
-            https://github.com/landonsgithub
-            <br />
-           
-            </section>
-        </section>
-        <section className={styles.footer_info_right}>
-            <section className={styles.footer_info__number}>
-            Landon Lundquist
-            <br />
-            <br/>
-            1(951) 407-6816
-            </section>
-            <section className={styles.footer_info__contact}>
-          
-            California
-            </section>
-        </section>
-        </section>
-        <hr className={styles.footer_seperator} />
-    </section>
+        </div>
     )
 };
 
 export default Footer;
+
+

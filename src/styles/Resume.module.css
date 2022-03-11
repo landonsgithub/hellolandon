@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400&display=swap');
 
-@import url("https://use.typekit.net/fng0mtw.css");
-/* font-family: brother-1816, sans-serif;
-font-weight: 700;
-font-style: normal; */
+
 
 .background_wrapper{
     margin: 0 5vw;
@@ -69,4 +65,29 @@ font-style: normal; */
     font-family: monospace, serif;
     text-shadow: .5px .5px rgb(141, 139, 139);
     
+}
+
+@media (max-width: 380px) {
+    .text_wrapper{
+        margin: 6rem 0px;
+        padding: 8px;  
+    }
+
+}
+
+@media (min-width: 381px)
+  and (max-width: 480px) {
+    .text_wrapper{
+        margin: 6rem 0;
+        padding: 14px;  
+    }
+}
+
+  @media (min-width: 481px)
+    and (max-width: 768px) {
+        .text_wrapper{
+            margin: 6rem 5vw;
+            padding: 5%;
+        }
+
 }
