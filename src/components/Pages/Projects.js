@@ -1,5 +1,4 @@
 import React from 'react';
-import AudioLibrary from '../AudioPlayer/AudioLibrary';
 import AudioPlayer from '../AudioPlayer/AudioPlayer';
 import styles from '../../styles/Project.module.css';
 import {SiAudiomack} from 'react-icons/si';
@@ -24,7 +23,6 @@ const Projects = () => {
         <section className={styles.project_one_outer_container}>
           <div  className={styles.project_one_inner_container}>
             <div className={styles.project_one_container}>
-              < AudioLibrary />
               < AudioPlayer />
             </div>
             <div className={styles.projects_text_container1}>
@@ -42,7 +40,9 @@ const Projects = () => {
               <p className={styles.projects_text}>This is a marketing video I made for the FERRETTE AND PARTNERS previous consultation; cut in Premier from an excruciatingly large b-roll library from my buddy Jonny's partner media company. It was made to be used for digital marketing material to attract western college graduates to our job placement program, but I took off our company branding and made this version for fun as it has good friends.</p>
             </div>
             <div className={styles.project_two_container}>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/EylikOCpAVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div className={styles.project_two_iframe_wrapper}>
+              <iframe className={styles.project_two_video}  src="https://www.youtube.com/embed/EylikOCpAVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" marginheight="0" marginwidth="0"  scrolling="auto" allowfullscreen="true"></iframe>
+              </div>
             </div>
           </div>
         </section>    

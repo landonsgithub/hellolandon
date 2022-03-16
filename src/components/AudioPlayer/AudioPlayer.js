@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useCallback } from 'react';
 import styles from '../../styles/AudioPlayer.module.css';
 import {BsArrowClockwise} from 'react-icons/bs';
 import {BsArrowCounterclockwise} from 'react-icons/bs';
@@ -10,12 +10,24 @@ const AudioPlayer = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
+  const [animation, setAnimation] = useState(false);
   // const [data, setData] = useState([])
 
   //refs
   const audio = useRef();
   const progressBar = useRef();
   const progressBarAnimation = useRef(); 
+
+  //library
+    const library = [
+        {
+         id: Math.floor(Math.random().toFixed(4) * 10000),
+         artist: 'The Isley Brothers',
+         title: 'Twist and Shout',
+         src: "https://dl.dropbox.com/s/8cd8f2j09cdvvan/4%20-%20Twist%20And%20Shout.mp3",
+         
+        }
+      ];
 
   //effects
   // useEffect(() => {
@@ -40,30 +52,69 @@ const AudioPlayer = () => {
     //  fetchAudio;
     //  console.log(data)
     // })
-
+    
   
  
 
-  //functions & Handlers
-  const calculateTime = (secs) => {
-      const minutes = Math.floor(secs / 60);
-      const returnedMinutes = minutes < 10 ? `0${minutes}` : `${minutes}`;
-      const seconds = Math.floor(secs % 60);
-      const returnedSeconds = seconds < 10 ? `0${seconds}` : `${seconds}`;
-      return `${returnedMinutes}:${returnedSeconds}`;
-    }
+  // functions & Handlers
+
+  // const Animate = () => {
+  //   const prevValue = animation;
+  //   if (audio.current.currentTime > 0){
+  //      setAnimation(true);
+  //   }else{
+  //     setAnimation(false);
+     
+
+  //   }
+  // }
+
+    const calculateTime = (secs) => {
+        const minutes = Math.floor(secs / 60);
+        const returnedMinutes = minutes < 10 ? `0${minutes}` : `${minutes}`;
+        const seconds = Math.floor(secs % 60);
+        const returnedSeconds = seconds < 10 ? `0${seconds}` : `${seconds}`;
+        return `${returnedMinutes}:${returnedSeconds}`;
+      }
+
+
+  // const isPlayingHandler = useCallback (
+  //       () => {
+  //         const prevValue = isPlaying;
+  //         setIsPlaying(!prevValue);
+  //         if (!prevValue) {
+  //         audio.current.play();
+  //         setAnimation(true);
+  //         progressBarAnimation.current = 
+  //         requestAnimationFrame(whilePlaying);
+  //         } else {
+  //         audio.current.pause();
+  //         setAnimation(false);
+  //         cancelAnimationFrame(progressBarAnimation.current);
+  //       }
+  //       }, [setAnimation, requestAnimationFrame, animation, isPlaying],
+  //   );
+    
   
   
 
   const isPlayingHandler = () => {
+
     const prevValue = isPlaying;
-    setIsPlaying(!prevValue);
+    
     if (!prevValue) {
+      console.log(isPlaying)
       audio.current.play();
+      setAnimation(true);
       progressBarAnimation.current = requestAnimationFrame(whilePlaying);
+      setIsPlaying(!isPlaying)
+
     } else {
       audio.current.pause();
+      setAnimation(false);
       cancelAnimationFrame(progressBarAnimation.current);
+      setIsPlaying(!isPlaying)
+
     };
   };
 
@@ -84,46 +135,49 @@ const AudioPlayer = () => {
   }
 
   const backwardFifteen = () => {
-    console.log(progressBar.current.value)
     progressBar.current.value = Number(progressBar.current.value) - 15;
-    console.log(progressBar.current.value)
     progressHandler();
     
   };
 
   const forwardFifteen = () => {
-    console.log(progressBar.current.value)
     progressBar.current.value = Number(progressBar.current.value) + 15;
-    console.log(progressBar.current.value)
     progressHandler();
   };
 
   return(
     <>
-      <div>
-         {/* eventually, a loop component tag will replace the below line to loop all audio file title and descriptions*/}
-      </div>
-      <div className={styles.audioWrapper}>
-        {/* eventually, a loop component tag will replace the below line to loop all audio files */}
-        {/* <audio ref={audio} src={data} alt="oops, something went wrong..."></audio> */}
-        <audio ref={audio} src="https://dl.dropbox.com/s/wfhmtvbc5two1wa/1-allen_2991.ogg" alt="oops, something went wrong..." onDurationChange={onDurationChangeHandler}></audio>
-        <button className={styles.sideButtons} onClick={backwardFifteen}><BsArrowCounterclockwise />15</button>
-        <button className={styles.playPauseButton} onClick={isPlayingHandler}>
-          { isPlaying ? <BsPauseCircleFill /> : <BsPlayCircleFill /> }</button>
-        <button className={styles.sideButtons} onClick={forwardFifteen}>15<BsArrowClockwise /></button>
+        {library.map(({artist, title, art, id}) => (
+          <div key={id} className={styles.libraryWrapper}>
+            <h4 className={styles.artist}>{artist}</h4>
+            <p className={styles.title}>{title}</p>
+            <div className={styles.artWrapper}>
+              <div className={animation ? styles.artRotate : styles.art}></div>
+            </div>
+          </div>
+        ))} 
+        <div className={styles.audioWrapper}> 
+          <div className={styles.mobileButtonBottom}>
+            <audio ref={audio} src="https://dl.dropbox.com/s/8cd8f2j09cdvvan/4%20-%20Twist%20And%20Shout.mp3?dl=1" alt="oops, something went wrong..." onDurationChange={onDurationChangeHandler}></audio>
+            <button className={styles.sideButtons} onClick={backwardFifteen}><BsArrowCounterclockwise />15</button>
+            <button className={styles.playPauseButton} onClick={isPlayingHandler}>
+              { isPlaying ? <BsPauseCircleFill /> : <BsPlayCircleFill /> }</button>
+            <button className={styles.sideButtons} onClick={forwardFifteen}>15<BsArrowClockwise /></button>
+          </div>
+            <div className={styles.mobileButtonTop}>
+            {/* current time */}
+            <div className={styles.currentTime}>{calculateTime(currentTime)}</div>
 
-        {/* current time */}
-        <div className={styles.currentTime}>{calculateTime(currentTime)}</div>
+            {/* progress bar */}
+            <div>
+              <input type="range" ref={progressBar} className={styles.progressBar} onChange={progressHandler} defaultValue='0'/>
+            </div>
 
-        {/* progress bar */}
-        <div>
-          <input type="range" ref={progressBar} className={styles.progressBar} onChange={progressHandler} defaultValue='0'/>
-        </div>
-
-        {/* duration */}
-        <div className={styles.duration}>{(!isNaN(duration)) && calculateTime(duration)}</div>  
-        {/* <div className={styles.duration}>{(duration && !isNaN(duration)) && calculateTime(duration)}</div>   */}
-      </div>
+            {/* duration */}
+            <div className={styles.duration}>{(!isNaN(duration)) && calculateTime(duration)}</div>  
+            {/* <div className={styles.duration}>{(duration && !isNaN(duration)) && calculateTime(duration)}</div>   */}
+          </div>
+        </div> 
     </>
   );
 };

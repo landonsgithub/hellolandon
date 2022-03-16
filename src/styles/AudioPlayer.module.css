@@ -1,8 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+
+.libraryWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 275px;
+    background-color: #26203a  ;
+    border-radius: 4px 4px 0 0;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    
+
+
+}
+
+.artist{
+    padding: 0;
+    margin: 13px 0px 2px 0px;
+    width: 100%;
+    font-family: 'Poppins', monospace;
+    font-weight: 700;
+    font-size: 1rem;
+}
+    
+
+.title{
+    padding: 0;
+    margin: 2px 0px;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 400;
+    line-height: 1.1rem;
+
+}
+
+@media (max-width: 600px) {
+    .libraryWrapper{
+        height: 85px;
+        width: 250px;
+        border-radius: 10px 10px 0 0;
+        
+    }
+
+    
+
+    .art{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        margin: -77px 0 0 155px;
+        z-index: 1;
+        background-image: url('https://dl.dropbox.com/s/dm2hqmvqh0dpge0/isleyrecord.png?dl=1');
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+
+}
+
+.artRotate {
+	    position: absolute;
+        width: 90px;
+        height: 90px;
+        margin: -77px 0 0 155px;
+        z-index: 1;
+        background-image: url('https://dl.dropbox.com/s/dm2hqmvqh0dpge0/isleyrecord.png?dl=1');
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-animation:spin 4s linear infinite;
+        -moz-animation:spin 4s linear infinite;
+        animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+
 .audioWrapper{
     --primaryColor: #8671a5;
     background-color: rgb(183, 181, 190);
     align-items: center;
     display: flex;
+    flex-direction: column;
     width: 500px;
     padding: 3px 10px;
     border-radius: 0 0 4px 4px;
@@ -160,7 +251,102 @@
     transform: scale(1.2);
     background: var(--selectedKnob);
 }
+
+@media (max-width: 600px) {
+    .audioWrapper{
+        --primaryColor: #8671a5;
+        background-color: rgb(183, 181, 190);
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+       
+        width: 250px;
+        padding: 3px 10px;
+        border-radius: 0 0 10px 10px; 
+    }
+
+
+    .currentTime,
+    .duration {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        padding-top: 5px;
+    }
     
+    .currentTime{
+        margin: 0 10px 0 10px;
+    }
+    
+    .duration{
+        margin-left: 10px;
+    }
+
+    .mobileButtonBottom{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .mobileButtonTop{
+        display: flex;
+        flex-direction: row;
+        padding: 0 0 5px 0;
+    }
+    
+    .playPauseButton {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        font-size:30px;
+        border: none;
+        border-radius: 50%;
+        background: none;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .sideButtons {
+        font-size: 22px;
+        background: none;
+        border: none;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        cursor: pointer;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    
+    
+    .sideButtons:hover,
+    .playPauseButton:hover{
+        color: var(--primaryColor);
+    }
+    
+    
+    
+    .progressBar {
+        --bar-background: #8671a5;
+        --seek-before-width: 0;
+        --seek-before-color: #928a9e;
+        --knob: #584d6b;
+        --selectedKnob: #c3b4d8;
+    
+        appearance: none;
+        position: relative;
+        background: var(--bar-background);
+        border-radius: 10px;
+        outline: none;
+        width: 100%;
+        height: 8px;
+    }
+};
+    
+
+
 
 
 

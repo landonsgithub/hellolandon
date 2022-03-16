@@ -16,7 +16,7 @@ const Footer = () => {
                     <div className={styles.center}><a href="https://www.linkedin.com/in/landon-lundquist-091839a8/" style={{color: "#4fb0a7", textDecoration: "none"}}>LinkedIn</a></div>
                     <div className={styles.right}>+1(951)407-6815</div>
                     <div></div>  
-                    <div className={styles.left}>California</div>
+                    <div className={styles.left_hide}>California</div>
                     <div className={styles.center}><a href="https://github.com/landonsgithub" style={{color: "#4fb0a7", textDecoration: "none"}}>github</a></div>
                     <div className={styles.right}><a href="mailto:lundquistlandon@gmail.com" style={{color: "#4fb0a7", textDecoration: "none"}}>email</a></div>   
                 </main>    
