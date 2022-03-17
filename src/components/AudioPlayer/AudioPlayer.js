@@ -11,7 +11,6 @@ const AudioPlayer = () => {
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const [animation, setAnimation] = useState(false);
-  // const [data, setData] = useState([])
 
   //refs
   const audio = useRef();
@@ -29,12 +28,7 @@ const AudioPlayer = () => {
         }
       ];
 
-  //effects
-  // useEffect(() => {
-  //   const seconds = Math.floor(audio.current.duration);
-  //   setDuration(seconds);
-  //   progressBar.current.max = seconds;
-  // }, [ audio?.current?.loadedmetadata, audio?.current?.readyState ]);
+  
 
   const onDurationChangeHandler = (e) => {
     const seconds = Math.floor(e.target.duration);
@@ -42,32 +36,6 @@ const AudioPlayer = () => {
     progressBar.current.max = seconds;
 };
  
-    
-    // useEffect(() => {
-    //   const fetchAudio = async() => {
-    //     await fetch("https://dl.dropbox.com/s/wfhmtvbc5two1wa/1-allen_2991.ogg").then(
-    //       res => setData(res)
-    //     )
-    //   }
-    //  fetchAudio;
-    //  console.log(data)
-    // })
-    
-  
- 
-
-  // functions & Handlers
-
-  // const Animate = () => {
-  //   const prevValue = animation;
-  //   if (audio.current.currentTime > 0){
-  //      setAnimation(true);
-  //   }else{
-  //     setAnimation(false);
-     
-
-  //   }
-  // }
 
     const calculateTime = (secs) => {
         const minutes = Math.floor(secs / 60);
@@ -76,45 +44,21 @@ const AudioPlayer = () => {
         const returnedSeconds = seconds < 10 ? `0${seconds}` : `${seconds}`;
         return `${returnedMinutes}:${returnedSeconds}`;
       }
-
-
-  // const isPlayingHandler = useCallback (
-  //       () => {
-  //         const prevValue = isPlaying;
-  //         setIsPlaying(!prevValue);
-  //         if (!prevValue) {
-  //         audio.current.play();
-  //         setAnimation(true);
-  //         progressBarAnimation.current = 
-  //         requestAnimationFrame(whilePlaying);
-  //         } else {
-  //         audio.current.pause();
-  //         setAnimation(false);
-  //         cancelAnimationFrame(progressBarAnimation.current);
-  //       }
-  //       }, [setAnimation, requestAnimationFrame, animation, isPlaying],
-  //   );
-    
   
   
 
   const isPlayingHandler = () => {
-
     const prevValue = isPlaying;
-    
+    setIsPlaying(!prevValue);
     if (!prevValue) {
-      console.log(isPlaying)
-      audio.current.play();
-      setAnimation(true);
-      progressBarAnimation.current = requestAnimationFrame(whilePlaying);
-      setIsPlaying(!isPlaying)
-
+    audio.current.play();
+    setAnimation(true);
+    progressBarAnimation.current = 
+    requestAnimationFrame(whilePlaying);
     } else {
-      audio.current.pause();
-      setAnimation(false);
-      cancelAnimationFrame(progressBarAnimation.current);
-      setIsPlaying(!isPlaying)
-
+    audio.current.pause();
+    setAnimation(false);
+    cancelAnimationFrame(progressBarAnimation.current);
     };
   };
 
