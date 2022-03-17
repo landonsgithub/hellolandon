@@ -262,7 +262,7 @@
     }
 
     .artist{
-        padding: 0;
+        padding: 0 0 0 10px;
         margin: 13px 0px 2px 0px;
         width: 100%;
         font-family: 'Poppins', monospace;
@@ -272,7 +272,7 @@
         
     
     .title{
-        padding: 0;
+        padding: 0 0 0 10px;
         margin: 2px 0px;
         width: 100%;
         font-size: 1rem;
@@ -285,7 +285,7 @@
         position: absolute;
         width: 90px;
         height: 90px;
-        margin: -77px 0 0 155px;
+        margin: -77px 0 0 180px;
         z-index: 1;
         background-image: url('https://dl.dropbox.com/s/dm2hqmvqh0dpge0/isleyrecord.png?dl=1');
         background-size: cover;
@@ -297,7 +297,7 @@
 	    position: absolute;
         width: 90px;
         height: 90px;
-        margin: -77px 0 0 155px;
+        margin: -77px 0 0 180px;
         z-index: 1;
         background-image: url('https://dl.dropbox.com/s/dm2hqmvqh0dpge0/isleyrecord.png?dl=1');
         background-size: cover;
