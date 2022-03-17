@@ -17,7 +17,7 @@
 }
 
 .artist{
-    padding: 0;
+    padding: 0 0 0 20px;
     margin: 13px 0px 2px 0px;
     width: 100%;
     font-family: 'Poppins', monospace;
@@ -27,28 +27,44 @@
     
 
 .title{
-    padding: 0;
+    padding: 0 0 0 20px;
     margin: 2px 0px;
     width: 100%;
     font-size: 1.3rem;
     font-family: 'Ubuntu Mono', monospace;
     font-weight: 400;
     line-height: 1.1rem;
-
 }
+
+.album{
+    position: absolute;
+    margin: 85px 0 0 20px;
+    width: 160px;
+    height: 160px;
+    background-image: url("https://dl.dropbox.com/s/252d6r6nujkyald/Twist-and-shout-isleys-album.png?dl=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    size: cover;
+}
+
+.art{
+    position: absolute;
+    margin: -55px 0 0 220px;
+    width: 240px;
+    height: 240px;
+    z-index: 1;
+    background-image: url('https://dl.dropbox.com/s/dm2hqmvqh0dpge0/isleyrecord.png?dl=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
 
 .artRotate {
 	    position: absolute;
-        width: 90px;
-        height: 90px;
-        margin: -77px 0 0 155px;
-        z-index: 1;
-        background-image: url('https://dl.dropbox.com/s/dm2hqmvqh0dpge0/isleyrecord.png?dl=1');
-        background-size: cover;
-        background-repeat: no-repeat;
-        -webkit-animation:spin 4s linear infinite;
-        -moz-animation:spin 4s linear infinite;
-        animation:spin 4s linear infinite;
+        -webkit-animation:spin 1s linear infinite;
+        -moz-animation:spin 1s linear infinite;
+        animation:spin 1s linear infinite;
 }
 @-moz-keyframes spin { 
     100% { -moz-transform: rotate(360deg); } 
@@ -281,6 +297,10 @@
         line-height: 1.1rem;
     }
 
+    .album{
+        display: none;
+    }
+
     .art{
         position: absolute;
         width: 90px;
@@ -295,13 +315,6 @@
 
     .artRotate {
 	    position: absolute;
-        width: 90px;
-        height: 90px;
-        margin: -77px 0 0 180px;
-        z-index: 1;
-        background-image: url('https://dl.dropbox.com/s/dm2hqmvqh0dpge0/isleyrecord.png?dl=1');
-        background-size: cover;
-        background-repeat: no-repeat;
         -webkit-animation:spin 1s linear infinite;
         -moz-animation:spin 1s linear infinite;
         animation:spin 1s linear infinite;

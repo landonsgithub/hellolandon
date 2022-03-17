@@ -24,7 +24,6 @@ const AudioPlayer = () => {
          artist: 'The Isley Brothers',
          title: 'Twist and Shout',
          src: "https://dl.dropbox.com/s/8cd8f2j09cdvvan/4%20-%20Twist%20And%20Shout.mp3",
-         
         }
       ];
 
@@ -109,13 +108,14 @@ const AudioPlayer = () => {
   
   return(
     <>
-        {library.map(({artist, title, art, id}) => (
+        {library.map(({artist, title, album, id}) => (
           <div key={id} className={styles.libraryWrapper}>
             <h4 className={styles.artist}>{artist}</h4>
             <p className={styles.title}>{title}</p>
             <div className={styles.artWrapper}>
               <div className={animationChecker(animation)}></div>
             </div>
+            <div className={styles.album}>{album}</div>
           </div>
         ))} 
         <div className={styles.audioWrapper}> 
