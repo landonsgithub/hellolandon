@@ -28,7 +28,7 @@ const Projects = () => {
             <div className={styles.projects_text_container1}>
               <h3 className={styles.projects_h3}>AUDIO PLAYER <SiAudiomack /></h3>
               <hr/>
-              <p className={styles.projects_text}>These two components styled together require a hefty amount of the code that makes up this site. The player at the bottom includes useRef, useEffect, useState, audio methods, and other JS functions. The purple content runs separately with an array of objects and returns a for-loop. It works great but the audio isn't cut so for now Allen sounds like a crazy person talking to himself. In the recording, my best friend Allen recalls his experiences following the beginning of the pandemic and the subsequent border closures that left him an overnight refugee in South Asia.</p>
+              <p className={styles.projects_text}>These two components styled together require a hefty amount of the code that makes up this site. The player at the bottom includes useRef, useState, and audio methods. The purple content runs separately with an array of objects and returns a for-loop. It's also styled for desktop and mobile!</p>
             </div>
           </div>
         </section>
