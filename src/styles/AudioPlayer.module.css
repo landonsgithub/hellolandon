@@ -103,12 +103,12 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.mobileButtonBottom{
+.buttonsWrapper{
     display: flex;
     flex-direction: row;
     
 }
-.mobileButtonTop{
+.timeWrapper{
     display: flex;
     flex-direction: row;
     padding: 0 0 5px 0;
@@ -323,12 +323,12 @@
         margin-left: 10px;
     }
 
-    .mobileButtonBottom{
+    .buttonsWrapper{
         display: flex;
         flex-direction: row;
         
     }
-    .mobileButtonTop{
+    .timeWrapper{
         display: flex;
         flex-direction: row;
         padding: 0 0 5px 0;

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from 'react';
+import React, { useState, useRef } from 'react';
 import styles from '../../styles/AudioPlayer.module.css';
 import {BsArrowClockwise} from 'react-icons/bs';
 import {BsArrowCounterclockwise} from 'react-icons/bs';
@@ -45,19 +45,25 @@ const AudioPlayer = () => {
         return `${returnedMinutes}:${returnedSeconds}`;
       }
   
-  
+  const playHandler = () => {
+    if(isPlaying) {
+      setAnimation(false);
+    }else{
+      setAnimation(true);
+    }
+    isPlayingHandler();
+  }
 
   const isPlayingHandler = () => {
     const prevValue = isPlaying;
     setIsPlaying(!prevValue);
     if (!prevValue) {
     audio.current.play();
-    setAnimation(true);
-    progressBarAnimation.current = 
-    requestAnimationFrame(whilePlaying);
+    // setAnimation(true);
+    progressBarAnimation.current = requestAnimationFrame(whilePlaying);
     } else {
     audio.current.pause();
-    setAnimation(false);
+    // setAnimation(false);
     cancelAnimationFrame(progressBarAnimation.current);
     };
   };
@@ -89,6 +95,18 @@ const AudioPlayer = () => {
     progressHandler();
   };
 
+  const animationChecker = (animation) => {
+    if (animation){
+      return `${styles.artRotate} ${styles.art}`;
+    }else{
+      return `${styles.art}`;
+        }
+  }
+
+ 
+
+  
+  
   return(
     <>
         {library.map(({artist, title, art, id}) => (
@@ -96,19 +114,19 @@ const AudioPlayer = () => {
             <h4 className={styles.artist}>{artist}</h4>
             <p className={styles.title}>{title}</p>
             <div className={styles.artWrapper}>
-              <div className={animation ? styles.artRotate : styles.art}></div>
+              <div className={animationChecker(animation)}></div>
             </div>
           </div>
         ))} 
         <div className={styles.audioWrapper}> 
-          <div className={styles.mobileButtonBottom}>
+          <div className={styles.buttonsWrapper}>
             <audio ref={audio} src="https://dl.dropbox.com/s/8cd8f2j09cdvvan/4%20-%20Twist%20And%20Shout.mp3?dl=1" alt="oops, something went wrong..." onDurationChange={onDurationChangeHandler}></audio>
             <button className={styles.sideButtons} onClick={backwardFifteen}><BsArrowCounterclockwise />15</button>
-            <button className={styles.playPauseButton} onClick={isPlayingHandler}>
+            <button className={styles.playPauseButton} onClick={playHandler}>
               { isPlaying ? <BsPauseCircleFill /> : <BsPlayCircleFill /> }</button>
             <button className={styles.sideButtons} onClick={forwardFifteen}>15<BsArrowClockwise /></button>
           </div>
-            <div className={styles.mobileButtonTop}>
+            <div className={styles.timeWrapper}>
             {/* current time */}
             <div className={styles.currentTime}>{calculateTime(currentTime)}</div>
 
@@ -119,7 +137,6 @@ const AudioPlayer = () => {
 
             {/* duration */}
             <div className={styles.duration}>{(!isNaN(duration)) && calculateTime(duration)}</div>  
-            {/* <div className={styles.duration}>{(duration && !isNaN(duration)) && calculateTime(duration)}</div>   */}
           </div>
         </div> 
     </>
