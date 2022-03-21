@@ -17,7 +17,7 @@
 }
 
 .artist{
-    padding: 0 0 0 20px;
+    padding: 0 0 0 25px;
     margin: 13px 0px 2px 0px;
     width: 100%;
     font-family: 'Poppins', monospace;
@@ -27,7 +27,7 @@
     
 
 .title{
-    padding: 0 0 0 20px;
+    padding: 0 0 0 25px;
     margin: 2px 0px;
     width: 100%;
     font-size: 1.3rem;
@@ -38,7 +38,7 @@
 
 .album{
     position: absolute;
-    margin: 85px 0 0 20px;
+    margin: 85px 0 0 25px;
     width: 160px;
     height: 160px;
     background-image: url("https://dl.dropbox.com/s/252d6r6nujkyald/Twist-and-shout-isleys-album.png?dl=1");
@@ -49,7 +49,7 @@
 
 .art{
     position: absolute;
-    margin: -50px 0 0 225px;
+    margin: -50px 0 0 230px;
     width: 240px;
     height: 240px;
     z-index: 1;
