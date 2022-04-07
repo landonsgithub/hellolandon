@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
-.navbar2 {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding: 0px 3.5px;
-    background-color: #f7f1f0;
-  }
+  .navbar2 {
+      display: flex;
+      flex-direction: row;
+      width: 100vw;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 0px 3.5px;
+      background-color: #f7f1f0;
+    }
   
   .button2 {
     font-family: "Space Mono";
@@ -27,85 +27,85 @@
   }
 
   /* GENERAL BUTTON STYLING */
-.button2,
-.button2::after {
-  -webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-
-
-.button2:hover {
-  color: rgb(100, 79, 79);
-  background-color: rgba(228, 217, 214, 0.15);
-  border-radius: 15%;
-  border: 1.5px solid rgb(100, 79, 79);
-  border-radius: 2px;
-}
-
-
-
-.button2::after {
-  color: rgb(100, 79, 79);
-  background-color: rgba(228, 217, 214, 0.15);
-  border: 1.5px solid rgb(100, 79, 79);
-  border-radius: 2px;
-  border-radius: 15%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-
-.button2:hover:after {
-  height: 0;
-  left: 50%;
-  top: 50%;
-  width: 0;
-}
-
-@media (max-width: 480px) {
-
-  .navbar2 {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    justify-content: space-around;
-    padding: 0;
-  }
-  .button2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 0 0 0;
-    font-size: 1.3rem;
-    text-decoration: inherit;
-    text-transform: uppercase;
-    outline: none;
+  .button2,
+  .button2::after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
   }
 
 
-}
 
-@media (min-width: 481px) {
-  .button2 {
-    border-radius: 10%;
-    padding: 2px 5px;
+  .button2:hover {
+    color: rgb(100, 79, 79);
+    background-color: rgba(228, 217, 214, 0.15);
+    border-radius: 15%;
+    border: 1.5px solid rgb(100, 79, 79);
+    border-radius: 2px;
   }
-}
 
-@media (min-width: 1024px) {
-  .button2 {
-    font-size: 1.5rem;
-    text-shadow: 1.8px 1.8px rgb(80 92 84);
-  }
-}
 
-@media (min-width: 1200px) {
-  .button2 {
-    font-size: 1.8rem;
-    text-shadow: 1.8px 1.8px rgb(80 92 84);
+
+  .button2::after {
+    color: rgb(100, 79, 79);
+    background-color: rgba(228, 217, 214, 0.15);
+    border: 1.5px solid rgb(100, 79, 79);
+    border-radius: 2px;
+    border-radius: 15%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
   }
-}
+
+  .button2:hover:after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+  }
+
+  @media (max-width: 480px) {
+
+    .navbar2 {
+      display: flex;
+      flex-direction: row;
+      width: 100vw;
+      justify-content: space-around;
+      padding: 0;
+    }
+    .button2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0 0 0;
+      font-size: 1.3rem;
+      text-decoration: inherit;
+      text-transform: uppercase;
+      outline: none;
+    }
+
+
+  }
+
+  @media (min-width: 481px) {
+    .button2 {
+      border-radius: 10%;
+      padding: 2px 5px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .button2 {
+      font-size: 1.5rem;
+      text-shadow: 1.8px 1.8px rgb(80 92 84);
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .button2 {
+      font-size: 1.8rem;
+      text-shadow: 1.8px 1.8px rgb(80 92 84);
+    }
+  }
