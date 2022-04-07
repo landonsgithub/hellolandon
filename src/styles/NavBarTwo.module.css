@@ -27,8 +27,8 @@
   }
 
   /* GENERAL BUTTON STYLING */
-.button,
-.button::after {
+.button2,
+.button2::after {
   -webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -37,7 +37,7 @@
 
 
 
-.button:hover {
+.button2:hover {
   color: rgb(100, 79, 79);
   background-color: rgba(228, 217, 214, 0.15);
   border-radius: 15%;
@@ -47,7 +47,7 @@
 
 
 
-.button::after {
+.button2::after {
   color: rgb(100, 79, 79);
   background-color: rgba(228, 217, 214, 0.15);
   border: 1.5px solid rgb(100, 79, 79);
@@ -59,7 +59,7 @@
   width: 100%;
 }
 
-.button:hover:after {
+.button2:hover:after {
   height: 0;
   left: 50%;
   top: 50%;
