@@ -3,7 +3,7 @@
 
 .background_wrapper{
     margin: 0 5vw;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='2000' preserveAspectRatio='none' viewBox='0 0 1440 2000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1122%26quot%3b)' fill='none'%3e%3cpath d='M1471.229%2c2572.093C1625.425%2c2565.027%2c1739.959%2c2445.053%2c1814.71%2c2310.002C1886.631%2c2180.064%2c1921.229%2c2023.367%2c1845.744%2c1895.467C1771.249%2c1769.245%2c1617.767%2c1730.888%2c1471.229%2c1728.017C1318.073%2c1725.016%2c1154.209%2c1752.049%2c1070.405%2c1880.277C979.73%2c2019.018%2c985.431%2c2200.785%2c1068.521%2c2344.197C1151.396%2c2487.237%2c1306.088%2c2579.661%2c1471.229%2c2572.093' fill='rgba(189%2c 137%2c 121%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M466.55 1913.87 a313.49 313.49 0 1 0 626.98 0 a313.49 313.49 0 1 0 -626.98 0z' fill='rgba(189%2c 137%2c 121%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1236.4838538753852-78.01456142261615L1127.4206503684402 89.92804449910798 1433.866161004499 169.55154679866322z' fill='rgba(189%2c 137%2c 121%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M915.75 1429.93 a251.63 251.63 0 1 0 503.26 0 a251.63 251.63 0 1 0 -503.26 0z' fill='rgba(189%2c 137%2c 121%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M660.45 223.35 a298.04 298.04 0 1 0 596.08 0 a298.04 298.04 0 1 0 -596.08 0z' fill='rgba(189%2c 137%2c 121%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1236.303517243869 875.082430501162L1166.4871207273152 702.2807853301401 942.1928512290592 893.4062026904819z' fill='rgba(189%2c 137%2c 121%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M198.0882184313926 1261.4573064945935L674.9127600262067 1337.4447885756133 530.553153203527 940.8200285489545z' fill='rgba(189%2c 137%2c 121%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-299.25 611.84 a301.91 301.91 0 1 0 603.82 0 a301.91 301.91 0 1 0 -603.82 0z' fill='rgba(189%2c 137%2c 121%2c 1)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1122'%3e%3crect width='1440' height='2000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2000' height='3000' preserveAspectRatio='none' viewBox='0 0 2000 3000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1033%26quot%3b)' fill='none'%3e%3cpath d='M1369.66 910.98 a395.42 395.42 0 1 0 790.84 0 a395.42 395.42 0 1 0 -790.84 0z' fill='rgba(171%2c 104%2c 100%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1589.392%2c2545.127C1722.732%2c2544.601%2c1796.978%2c2407.379%2c1863.487%2c2291.809C1929.755%2c2176.657%2c2001.556%2c2048.563%2c1944.095%2c1928.773C1880.53%2c1796.258%2c1736.358%2c1719.094%2c1589.392%2c1720.401C1444.565%2c1721.689%2c1308.592%2c1804.641%2c1245.449%2c1934.985C1188.592%2c2052.351%2c1247.486%2c2180.38%2c1311.527%2c2293.986C1377.236%2c2410.552%2c1455.582%2c2545.655%2c1589.392%2c2545.127' fill='rgba(171%2c 104%2c 100%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1387.1488830367093 1387.537789959337L1696.8063164038972 1697.1952233265247 1696.806316403897 1077.8803565921492z' fill='rgba(171%2c 104%2c 100%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M2245.1873760500534 415.8509745493644L1912.231362960703-139.47900655087997 1629.2246848465613 350.70293882410476z' fill='rgba(171%2c 104%2c 100%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1410.251%2c2669.615C1492.017%2c2667.698%2c1562.101%2c2615.119%2c1601.141%2c2543.25C1638.375%2c2474.706%2c1634.22%2c2393.752%2c1597.479%2c2324.943C1558.22%2c2251.418%2c1493.528%2c2189.243%2c1410.251%2c2185.75C1321.48%2c2182.026%2c1237.357%2c2230.629%2c1193.684%2c2308.004C1150.701%2c2384.156%2c1158.269%2c2477.561%2c1203.198%2c2552.581C1246.856%2c2625.479%2c1325.302%2c2671.607%2c1410.251%2c2669.615' fill='rgba(171%2c 104%2c 100%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M890.611%2c3020.406C989.501%2c3019.039%2c1092.231%2c2983.272%2c1137.597%2c2895.392C1180.385%2c2812.506%2c1135.341%2c2719.195%2c1087.418%2c2639.168C1041.297%2c2562.152%2c980.329%2c2485.994%2c890.611%2c2482.953C796.7%2c2479.77%2c718.637%2c2545.052%2c669.254%2c2624.994C616.69%2c2710.084%2c582.654%2c2815.116%2c631.51%2c2902.387C681.198%2c2991.144%2c788.902%2c3021.812%2c890.611%2c3020.406' fill='rgba(171%2c 104%2c 100%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M385.988%2c1713.942C565.888%2c1705.6%2c683.151%2c1548.386%2c775.19%2c1393.588C870.166%2c1233.85%2c968.734%2c1046.969%2c879.464%2c883.974C788.019%2c717.009%2c576.346%2c681.105%2c385.988%2c682.963C199.704%2c684.781%2c5.894%2c734.383%2c-91.083%2c893.445C-191.466%2c1058.094%2c-168.124%2c1266.13%2c-71.194%2c1432.836C25.185%2c1598.594%2c194.453%2c1722.824%2c385.988%2c1713.942' fill='rgba(171%2c 104%2c 100%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1580.036030193126 2214.438842856401L1860.0507972254056 2214.438842856401 1720.0434137092657 1794.4166923079817z' fill='rgba(171%2c 104%2c 100%2c 1)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1033'%3e%3crect width='2000' height='3000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
 }
 
 .text_wrapper{
@@ -65,6 +65,115 @@
     font-family: monospace, serif;
     text-shadow: .5px .5px rgb(141, 139, 139);
     
+}
+
+/* table */
+
+
+
+
+div {
+  box-sizing: border-box;
+}
+
+.table_container {
+  display: block;
+  margin: 2em auto;
+  width: 90%;
+}
+
+
+.flex_table {
+  display: flex;
+  flex-flow: row wrap;
+  border-left: solid 1px #d9d9d9;
+  border-top: solid 1px #d9d9d9;
+  transition: 0.5s;
+
+}
+.flex_table:hover{
+    background: #F5F5F5;
+    transition: 500ms;}
+
+
+.flex_row {
+  width: calc(100% / 4);
+  text-align: center;
+  padding: 0.5em 0.5em;
+  border-right: solid 1px #d9d9d9;
+  border-bottom: solid 1px #d9d9d9;
+  
+}
+
+.column {
+  display: flex;
+  flex-flow: column wrap;
+  width: 75%;
+  padding: 0;
+}
+
+.column .flex_row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    border-bottom: solid 1px #d9d9d9;
+}
+
+
+.column:hover{
+    background: #F5F5F5;
+    transition: 500ms;
+      
+}
+
+
+@media all and (max-width: 767px) {
+  .flex_row {
+    width: calc(100% / 2); 
+  }
+    
+   .flex_row .first {
+     width: 100%;
+   }
+  
+
+  .column {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 430px) {
+  
+  .flex_table .flexrow {
+      border-bottom: 0;
+    }
+    .flex-row:last-of-type {
+      border-bottom: solid 1px #d9d9d9;
+    }
+  
+  .header .flexrow {
+      border-bottom: solid 1px;
+  }
+  
+  .flex_row {
+    width: 100%; 
+  }
+
+  .flex_row .first {
+    width: 100%;
+    border-bottom: solid 1px #d9d9d9;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .column .flex_row {
+    border-bottom: solid 1px #d9d9d9;
+  }
+
 }
 
 @media (max-width: 380px) {

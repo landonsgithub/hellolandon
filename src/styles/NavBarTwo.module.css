@@ -3,9 +3,11 @@
 .navbar {
     display: flex;
     flex-direction: row;
-    width:fit-content;
+    width: 100vw;
     align-items: flex-start;
+    justify-content: flex-end;
     padding: 0px 3.5px;
+    background-color: #f7f1f0;;
   }
   
   .button {
@@ -13,9 +15,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8px 0 0 2rem;
-    font-size: 1.3rem;
-    color: inherit;
+    margin: 0 4rem 0 0;
+    font-size: 1.5rem;
     text-decoration: inherit;
     text-transform: uppercase;
     outline: none;
@@ -90,13 +91,19 @@
 
 @media (min-width: 481px) {
   .button {
-    background-color: rgba(74, 85, 85, 0.15);
     border-radius: 10%;
     padding: 2px 5px;
   }
 }
 
 @media (min-width: 1024px) {
+  .button {
+    font-size: 1.5rem;
+    text-shadow: 1.8px 1.8px rgb(80 92 84);
+  }
+}
+
+@media (min-width: 1200px) {
   .button {
     font-size: 1.8rem;
     text-shadow: 1.8px 1.8px rgb(80 92 84);
