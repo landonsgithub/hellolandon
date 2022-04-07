@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const NavBarTwo = () => {
     return (
       <>
-        <section className={styles.navbar}>
-          <Link to="/" className={styles.button}>Home</Link>
-          <Link to="/projects" className={styles.button}>Projects</Link>
+        <section className={styles.navbar2}>
+          <Link to="/" className={styles.button2}>Home</Link>
+          <Link to="/projects" className={styles.button2}>Projects</Link>
         </section>
       </>
     )

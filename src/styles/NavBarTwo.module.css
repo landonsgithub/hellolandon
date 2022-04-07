@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
-.navbar {
+.navbar2 {
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -10,7 +10,7 @@
     background-color: #f7f1f0;
   }
   
-  .button {
+  .button2 {
     font-family: "Space Mono";
     display: flex;
     justify-content: center;
@@ -68,14 +68,14 @@
 
 @media (max-width: 480px) {
 
-  .navbar {
+  .navbar2 {
     display: flex;
     flex-direction: row;
     width: 100vw;
     justify-content: space-around;
     padding: 0;
   }
-  .button {
+  .button2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,21 +90,21 @@
 }
 
 @media (min-width: 481px) {
-  .button {
+  .button2 {
     border-radius: 10%;
     padding: 2px 5px;
   }
 }
 
 @media (min-width: 1024px) {
-  .button {
+  .button2 {
     font-size: 1.5rem;
     text-shadow: 1.8px 1.8px rgb(80 92 84);
   }
 }
 
 @media (min-width: 1200px) {
-  .button {
+  .button2 {
     font-size: 1.8rem;
     text-shadow: 1.8px 1.8px rgb(80 92 84);
   }
