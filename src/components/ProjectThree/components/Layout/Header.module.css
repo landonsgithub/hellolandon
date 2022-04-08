@@ -11,12 +11,32 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     z-index: 10;
   }
+
+  .headerTwo {
+    position: flex;
+    width: 90%;
+    height: 5rem;
+    background-color: #8a2b06;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -3rem 0 0 0;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+    border-radius: 0 0 14px 14px;
+  }
   
   .main-image {
     width: 100%;
     height: 25rem;
     z-index: 0;
     overflow: hidden;
+  }
+
+  .sushiimg{
+    background-image: url('https://www.dropbox.com/s/hbzn014irwi0wj0/card10.png?raw=1');
   }
   
   .main-image img {

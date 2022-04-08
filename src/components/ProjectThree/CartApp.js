@@ -1,4 +1,5 @@
 import Header from './components/Layout/Header';
+import HeaderTwo from './components/Layout/HeaderTwo';
 import Meals from "./components/Meals/Meals";
 import React, { useState } from 'react';
 import Cart from './components/Cart/Cart';
@@ -23,6 +24,7 @@ function CartApp() {
       <main>
         <Meals />
       </main>
+      <HeaderTwo onShowCart={showCartHandler}/>
     </CartProvider>
   );
 };
