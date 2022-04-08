@@ -11,8 +11,12 @@ html
 
 .header_navbar_two {
     display: flex;
-    width: 100vw;
-    flex-direction: row;
+      flex-direction: row;
+      width: 100%;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 0px 3.5px;
+      background-color: #f7f1f0;
   }
 
 
