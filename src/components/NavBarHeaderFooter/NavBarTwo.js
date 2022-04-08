@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 const NavBarTwo = () => {
     return (
       <>
-        <section className={styles.navbar2}>
+        <div className={styles.navbar_two}>
           <Link to="/" className={styles.button2}>Home</Link>
           <Link to="/projects" className={styles.button2}>Projects</Link>
-        </section>
+        </div>
       </>
     )
     
