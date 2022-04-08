@@ -50,7 +50,7 @@ const Resume = () => {
                 </div>
                 <h3 className={styles.header_h3}>WORK EXPERIENCE  </h3>
                 <h4 className={styles.h_all}>PROGRAMMING</h4>
-                <h5 className={styles.h_all_bottom}>CODING BOOTCAMP AND DEV PROJECTS <br/> 2020 _ Present</h5>
+                <h5 className={styles.h_all_bottom}>CODING BOOTCAMP AND DEV PROJECTS <br/> 2020 ~ Present</h5>
                 <ul>
                   <li className={styles.text}>Completed 1,000+ hours of web development in ReactJS, Laravel, Javascript, jQuery, HTML, CSS, PHP, SQL and XAMPP via Coding Bootcamp Praha, Udemy courses and independent projects.</li> 
                   <li className={styles.text}>Designed, developed, tested and debugged numerous web applications both as collaborative and personal projects.</li>  

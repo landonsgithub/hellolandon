@@ -18,6 +18,7 @@ const Projects = () => {
       value={{ color: 'black', size: '2rem', }}
     >
       <section className={styles.projects_wrapper}>
+        <section className={styles.content_wrapper}>
         <div className={styles.projects_intro_container}>
           <div className={styles.projects_top_text_container}>
             <h1 className={styles.projects_h1}>PROJECTS</h1>
@@ -63,6 +64,7 @@ const Projects = () => {
               <p className={styles.projects_text}>This hefty little app includes a ton of code. It runs on useEffect, useState, Forloops, passed props, useContext and more. I have a long background and appreciation for food and beverage which attracts me to these sorts of industry related projects. This is probably the most modern, practical use of code on my website. You can play with it by adding and subtracting items from the cart. Click on the cart to access the modal overlay. </p>
             </div>
           </div>
+        </section>
         </section>   
       </section>
       </IconContext.Provider>
