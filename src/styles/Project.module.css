@@ -9,6 +9,12 @@ html
  
 }
 
+.header_navbar_two {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+  }
+
 
 .projects_wrapper{
     display: flex;

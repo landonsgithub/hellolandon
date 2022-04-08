@@ -11,7 +11,9 @@ import CartApp from '../ProjectThree/CartApp';
 const Projects = () => {
   return (
     <>
+    <section className={styles.header_navbar_two}>
      <NavBarTwo />
+    </section>
      <IconContext.Provider
       value={{ color: 'black', size: '2rem', }}
     >
